@@ -155,13 +155,11 @@ def question_8():
             return 'Morning'
         elif 12 <= hour < 17:
             return 'Afternoon'
-        elif 17 <= hour < 21:
+        elif 17 <= hour < 24:
             return 'Evening'
-        else:
-            return 'Night'
 
     df_hour['time_of_day'] = df_hour['hours'].apply(time_of_day)
-    time_of_day_order = ['Morning', 'Afternoon', 'Evening', 'Night']
+    time_of_day_order = ['Morning', 'Afternoon', 'Evening',]
     time_of_day_usage = df_hour.groupby('time_of_day').agg({'count_cr': 'mean'}).reindex(time_of_day_order)
 
     plt.figure(figsize=(10, 5))
@@ -169,7 +167,7 @@ def question_8():
         x=time_of_day_usage.index,
         y=time_of_day_usage['count_cr'],
         hue=time_of_day_usage.index,  # Assign x to hue
-        palette={'Morning': '#FFD700', 'Afternoon': '#FFA500', 'Evening': '#FF4500', 'Night': '#1E90FF'}  # Custom palette
+        palette={'Morning': '#FFD700', 'Afternoon': '#FFA500', 'Evening': '#1E90FF'}  # Custom palette
     )
     plt.title('Average Rentals by Time of Day')
     plt.xlabel('Time of Day')
