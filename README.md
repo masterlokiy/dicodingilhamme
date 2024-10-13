@@ -7,7 +7,7 @@ Dashboard ini menampilkan berbagai analisis terkait perilaku pengguna dan pola p
 
 ## Fitur Dashboard
 
-- **Analisis RFM**: Menampilkan metrik Recency, Frequency, dan Monetary untuk pengguna kasual dan terdaftar.
+- *Analisis RFM*: Menampilkan metrik Recency, Frequency, dan Monetary untuk pengguna kasual dan terdaftar.
 - **Total Penyewaan Berdasarkan Musim dan Cuaca**: Visualisasi penyewaan sepeda berdasarkan musim dan kondisi cuaca.
 - **Penyewaan Berdasarkan Hari Kerja dan Hari Libur**: Membandingkan total penyewaan antara hari kerja dan hari libur.
 - **Rata-rata Penyewaan Berdasarkan Musim dan Hari Kerja**: Rata-rata penyewaan berdasarkan kombinasi musim dan hari kerja.
