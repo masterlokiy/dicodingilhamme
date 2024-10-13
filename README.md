@@ -91,5 +91,3 @@ Jika Anda memiliki pertanyaan atau masalah terkait dengan proyek ini, jangan rag
 - Nama: ilham
 - Email: icahyosw@gmail.com
 ```
-
-Ini adalah README yang dapat disesuaikan sesuai dengan proyekmu. Jika ada yang perlu diubah, jangan ragu untuk menambahkannya!
