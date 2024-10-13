@@ -4,8 +4,8 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # Load data
-df_hour = pd.read_csv('hour_cleaned.csv')
-df_day = pd.read_csv('day_cleaned.csv')
+df_hour = pd.read_csv('dashboard/hour_cleaned.csv')
+df_day = pd.read_csv('dashboard/day_cleaned.csv')
 
 # Function for Question 1: RFM Analysis
 def question_1():
