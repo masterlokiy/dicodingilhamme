@@ -192,17 +192,32 @@ st.title(f"Analisis untuk: {option}")
 
 if option == "Analisis RFM":
     st.pyplot(question_1())
+    st.write('Pengguna Terdaftar adalah kelompok utama yang menggunakan layanan penyewaan sepeda, baik dari sisi frekuensi maupun total kontribusi penyewaan. Pengguna Kasual menggunakan layanan lebih sedikit dibandingkan pengguna terdaftar, meskipun mereka tetap aktif berdasarkan nilai recency yang sama.')
+    
 elif option == "Total Penyewaan Berdasarkan Musim dan Cuaca":
     st.pyplot(question_2())
+    st.write('Musim semi adalah waktu paling populer untuk bersepeda, dengan cuaca cerah sangat memengaruhi keputusan orang untuk menyewa sepeda. Musim lainnya, terutama musim dingin, memiliki jumlah penyewaan yang jauh lebih sedikit, menunjukkan bahwa cuaca dan kondisi musim sangat memengaruhi kebiasaan bersepeda masyarakat.')
+
 elif option == "Penyewaan Berdasarkan Hari Kerja dan Hari Libur":
     st.pyplot(question_3())
+    st.write('Pengguna terdaftar cenderung lebih aktif pada hari kerja, sedangkan pengguna kasual lebih aktif pada hari libur. Ini dapat menjadi pertimbangan penting untuk strategi pemasaran dan promosi, seperti menawarkan paket atau diskon khusus untuk pengguna kasual pada akhir pekan atau hari libur')
+
 elif option == "Rata-rata Penyewaan Berdasarkan Musim dan Hari Kerja":
     st.pyplot(question_4())
+    st.write('Rata-rata penggunaan sepeda bervariasi tergantung pada musim dan jenis hari. Musim semi adalah waktu paling aktif untuk penyewaan sepeda, sementara musim dingin cenderung menjadi waktu dengan penyewaan terendah. Terdapat perbedaan yang jelas antara penggunaan sepeda pada hari kerja dan hari libur, dengan hari kerja menunjukkan angka yang lebih tinggi.')
+
 elif option == "Penyewaan Berdasarkan Jam, Musim, dan Hari Kerja":
     st.pyplot(question_5())
+    st.write('Cuaca (musim) dan status hari kerja sangat mempengaruhi pola penggunaan sepeda. Penggunaan sepeda meningkat pada jam commuting di hari kerja dan menurun di musim dingin. Di hari libur, meskipun tidak ada lonjakan signifikan di pagi atau sore hari, penggunaan sepeda lebih stabil sepanjang hari.')
+
 elif option == "Deteksi Anomali pada Penyewaan Harian":
     st.pyplot(question_6())
+    st.write('Pola penyewaan sepeda menunjukkan tren peningkatan dari awal 2011 hingga pertengahan 2012, diikuti oleh penurunan pada akhir 2012 hingga awal 2013. Anomali terdeteksi pada beberapa titik, baik sebagai penurunan signifikan (anomali bawah) maupun lonjakan tak terduga (anomali atas), yang kemungkinan disebabkan oleh faktor eksternal seperti cuaca, pemeliharaan, kebijakan lokal, atau acara khusus. Puncak penggunaan terjadi pada pertengahan 2012 sebelum tren mulai menurun, menunjukkan potensi faktor musiman yang memengaruhi penggunaan sepeda. Batas anomali memberikan panduan dalam mengidentifikasi penyewaan yang tidak biasa, baik terlalu tinggi maupun terlalu rendah.')
+
 elif option == "Analisis Tren Mingguan":
     st.pyplot(question_7())
+    st.write('Penggunaan sepeda paling optimal selama hari kerja, terutama menjelang akhir minggu. Ini bisa menjadi indikasi bahwa layanan penyewaan sepeda lebih banyak digunakan untuk kegiatan sehari-hari seperti pergi bekerja atau beraktivitas di kota, sementara pada akhir pekan, pengguna lebih jarang memanfaatkan layanan ini.')
+
 elif option == "Penyewaan Berdasarkan Waktu dalam Sehari":
     st.pyplot(question_8())
+    st.write('Waktu terbaik untuk layanan penyewaan sepeda adalah pada sore dan siang hari, dengan potensi penawaran promosi atau peningkatan layanan pada pagi hari. Di sisi lain, layanan pada malam hari mungkin bisa ditingkatkan jika ada kebutuhan khusus seperti acara malam atau peningkatan keamanan.')
