@@ -211,4 +211,4 @@ st.write('Penggunaan sepeda paling optimal selama hari kerja, terutama menjelang
 
 st.header('Rentals by Time of Day')
 st.pyplot(question_8())
-st.write('Waktu terbaik untuk layanan penyewaan sepeda adalah pada sore hingga malam hari, dengan potensi penawaran promosi atau peningkatan layanan pada pagi hari. Di sisi lain, layanan pada malam jam 22-00 mungkin bisa ditingkatkan jika ada kebutuhan khusus seperti acara malam atau peningkatan keamanan.')
+st.write('Waktu terbaik untuk layanan penyewaan sepeda adalah pada sore hingga malam hari, dengan potensi penawaran promosi atau peningkatan layanan pada pagi hari.')
