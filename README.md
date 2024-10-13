@@ -54,6 +54,12 @@ pip install streamlit pandas matplotlib seaborn
    ```
    https://dicodingilhamme.streamlit.app/
    ```
+   atau
+
+# Bike Rental Dashboard
+
+[Klik di sini untuk melihat demo live dashboard!](https://dicodingilhamme.streamlit.app/)
+
 
 ## Dataset
 
