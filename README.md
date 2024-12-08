@@ -1,6 +1,3 @@
-Berikut adalah template README.md untuk menjalankan dashboard Streamlit:
-
-```markdown
 # Bike Rental Dashboard
 
 Dashboard ini menampilkan berbagai analisis terkait perilaku pengguna dan pola penyewaan sepeda berdasarkan dataset yang tersedia. Anda dapat mengeksplorasi berbagai visualisasi seperti analisis RFM, penyewaan berdasarkan musim, hari kerja, waktu dalam sehari, dan deteksi anomali.
